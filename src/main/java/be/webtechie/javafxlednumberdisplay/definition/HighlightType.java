@@ -3,7 +3,12 @@ package be.webtechie.javafxlednumberdisplay.definition;
 /**
  * Enum with definition of the segments to be highlighted.
  *
- * AAAA F  B GGGG E  C DDDD
+ * Placing of the LEDs:
+ * AAAA
+ * F  B
+ * GGGG
+ * E  C
+ * DDDD
  */
 public enum HighlightType {
     CLEAR(false, false, false, false, false, false, false),
@@ -45,7 +50,7 @@ public enum HighlightType {
         this.g = g;
     }
 
-    static public HighlightType getByNumber(int number) {
+    public static HighlightType getByNumber(int number) {
         switch (number) {
             case 0:
                 return HighlightType.ZERO;

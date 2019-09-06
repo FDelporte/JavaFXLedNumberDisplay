@@ -8,6 +8,10 @@ import javafx.scene.paint.Color;
  */
 public class ColorUtil {
 
+    private ColorUtil() {
+        // NOP
+    }
+
     public static String colorToHex(Color color, boolean includeOpacity) {
         StringBuilder rt = new StringBuilder();
         rt.append(colorChanelToHex(color.getRed()))
