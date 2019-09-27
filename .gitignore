@@ -1,0 +1,5 @@
+/JavaFXLedNumberDisplay.iml
+/target/
+/.idea/
+.gitignore
+release.properties
