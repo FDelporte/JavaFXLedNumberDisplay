@@ -41,6 +41,10 @@ mvn clean deploy
 
 For a release, update the version in pom.xml first, then:
 ```
+mvn clean deploy -P release
+```
+or when using Maven release plugin:
+```
 mvn release:clean release:prepare
    --> Answer the prompts for versions and tags
 mvn release:perform
