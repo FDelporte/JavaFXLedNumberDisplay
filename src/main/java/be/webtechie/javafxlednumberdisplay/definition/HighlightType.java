@@ -29,8 +29,27 @@ public enum HighlightType {
     C(true, false, false, true, true, true, false),
     D(true, true, true, true, true, true, false),
     E(true, false, false, true, true, true, true),
-    // TODO complete alphabet
-    ;
+    F(true, false, false, false, true, true, true),
+    G(true, true, false, true, true, true, true),
+    H(false, true, true, false, true, true, true),
+    I(false, true, true, false, false, false, false),
+    J(false, true, true, true, false, false, false),
+    K(false, true, true, false, true, true, true),
+    L(false, false, false, true, true, true, false),
+    M(false, true, true, false, true, true, true),
+    N(false, true, true, false, true, true, true),
+    O(true, true, true, true, true, true, false),
+    P(true, true, false, false, true, true, true),
+    Q(true, true, true, true, true, true, false),
+    R(true, true, true, false, true, true, true),
+    S(true, false, true, true, false, true, true),
+    T(true, false, false, false, true, true, false),
+    U(false, true, true, true, true, true, false),
+    V(false, true, true, true, true, true, false),
+    W(false, true, true, true, true, true, false),
+    X(false, true, true, false, true, true, true),
+    Y(false, true, true, false, false, true, true),
+    Z(true, true, false, true, true, false, true);
 
     private final boolean a;
     private final boolean b;
