@@ -52,3 +52,5 @@ mvn release:perform
 
 ## Check your published artifact
 * https://oss.sonatype.org/ with the same credentials as https://issues.sonatype.org/
+* Maven directory: https://repo1.maven.org/maven2/
+    * E.g. for this library: https://repo1.maven.org/maven2/be/webtechie/javafx-led-number-display/
